@@ -49,7 +49,7 @@ def get_worksheet_by_name(_client, sheet_url, worksheet_name):
 
 # Initialize client and get worksheets
 g_client = init_gspread_client()
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1ssxshfUjC9gJ_6oUyhtuoWgDizLx43-sjbqhZnAxlBo/edit?gid=0#gid=0"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/100vEblrmDkB02T84vV6l35O2iy_s-v26EpFcfBndvIE/edit?gid=0#gid=0"
 counter_sheet = get_worksheet_by_name(g_client, SHEET_URL, "Counter")
 feedback_sheet = get_worksheet_by_name(g_client, SHEET_URL, "Feedback")
 
