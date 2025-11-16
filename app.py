@@ -224,8 +224,8 @@ with left_panel:
             # Generate the content
             try:
                 response = client.chat.completions.create(
-#                    model="google/gemini-2.5-pro",
-                    model="google/gemini-2.5-flash",
+                    model="google/gemini-2.5-pro",
+#                    model="google/gemini-2.5-flash",
                     messages=[
                         {
                             "role": "user",
